@@ -1,32 +1,62 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Saya</title>
+    <title>Asyraf Satrio H.U — Portafolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <!-- HEADER / HERO SECTION -->
     <header>
-        <marquee scrollamount="12"><h1>Halo, Saya Asyraf Satrio H.U</h1></marquee>
+        <marquee scrollamount="10"><h1>¡Bienvenido a Mi Portafolio! — Hola, Soy Asyraf Satrio H.U</h1></marquee>
         <p>Web Developer & Designer</p>
+        
+        <!-- Tambahan Tombol Aksi Keren Bergaya Spanyol -->
+        <div style="margin-top: 2rem; position: relative; z-index: 1;">
+            <a href="#projects" style="
+                background: #d4af37; 
+                color: #3b070e; 
+                padding: 0.8rem 1.8rem; 
+                border-radius: 30px; 
+                text-decoration: none; 
+                font-weight: bold; 
+                font-family: 'Georgia', serif;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+                transition: 0.3s ease;
+                display: inline-block;
+            " onmouseover="this.style.background='#fdf8f2'; this.style.transform='scale(1.05)';" onmouseout="this.style.background='#d4af37'; this.style.transform='scale(1)';">
+                Ver Proyectos 🚀
+            </a>
+        </div>
     </header>
 
+    <!-- ABOUT SECTION -->
     <section id="about">
-        <h2>Tentang Saya</h2>
-        <p>Saya adalah seorang pengembang web yang berfokus pada pembuatan aplikasi web modern dan responsif.</p>
+        <h2>Sobre Mí</h2>
+        <p>¡Hola! Saya adalah seorang pengembang web profesional yang berfokus pada pembuatan aplikasi web modern, elegan, dan sangat responsif. Dengan perpaduan kreativitas desain dan teknologi terkini, saya siap mengubah setiap ide menjadi karya digital yang memukau.</p>
     </section>
 
+    <!-- PROJECTS SECTION -->
     <section id="projects">
-        <h2>Proyek Saya</h2>
+        <h2>Mis Proyectos</h2>
         <ul>
-            <li><strong>Sistem Presensi:</strong> Aplikasi pencatatan kehadiran pegawai.</li>
-            <li><strong>Website Portofolio:</strong> Landing page pribadi menggunakan GitHub Pages.</li>
+            <li>
+                <strong>Sistem Presensi:</strong> 
+                <p style="margin-top: 0.3rem;">Aplikasi pencatatan kehadiran pegawai yang efisien, terintegrasi, dan memiliki antarmuka yang ramah pengguna.</p>
+            </li>
+            <li>
+                <strong>Website Portofolio:</strong> 
+                <p style="margin-top: 0.3rem;">Landing page pribadi yang elegan, cepat, dan di-deploy secara mulus menggunakan GitHub Pages.</p>
+            </li>
         </ul>
     </section>
 
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Asyraf Satrio.</p>
+        <p>&copy; 2026 Asyraf Satrio H.U. Todos los derechos reservados.</p>
     </footer>
+
 </body>
 </html>
